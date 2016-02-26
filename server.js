@@ -34,7 +34,7 @@ app.get(
 	middleware.requireAuthentication,
 
 	function(req, res){
-		res.send('about page');
+		res.send('about page!');
 	} 
 );
 
